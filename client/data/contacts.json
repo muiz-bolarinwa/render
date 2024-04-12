@@ -1,0 +1,7 @@
+{
+  "contacts" : [
+    {"FullName": "Bilbo Baggins", "ContactNumber": "905-999-1010", "EmailAddress": "bilbobaggins@example.com"},
+    {"FullName": "Samwise Gamgee", "ContactNumber": "905-888-1011", "EmailAddress": "sgamgee@example.com"},
+    {"FullName": "Admin Admin", "ContactNumber": "905-777-0101", "EmailAddress": "admin@example.com"}
+  ]
+}
