@@ -1,15 +1,15 @@
-let LOCAL = false;
+let LOCAL = true;
 let HostName, URI;
 if(LOCAL){
     URI = "mongodb://localhost/contacts";
     HostName = "localhost";
 }else{
-    URI = "mongodb+srv://johnfrance1:p1UEAikTSTi4UHiu@cluster0.t8tpzjb.mongodb.net/contacts?retryWrites=true&w=majority"
+    URI = "mongodb+srv://muiz:bolarinwa@cluster0.vhcl1ge.mongodb.net/";
     HostName = "MongoDB Atlas";
 }
 
 export{URI, HostName};
 export const SessionSecret = "INFT2202SessionSecret";
 
-//mongodb+srv://johnfrance1:p1UEAikTSTi4UHiu@cluster0.t8tpzjb.mongodb.net/contacts?retryWrites=true&w=majority
+
 
